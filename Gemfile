@@ -11,7 +11,12 @@ group :assets do
 end
 
 group :development do
+  gem 'growl'
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'guard-spin'
   gem 'heroku'
+  gem 'rb-fsevent', :require => false
   gem 'sqlite3'
 end
 
